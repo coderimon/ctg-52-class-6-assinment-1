@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+
+img{
+
+	max-width: 100%;
+	display: block;
+}
+
+*{
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+header,footer{
+
+	min-height: 80px;
+}
+
+header{
+
+	background: #FF7F00;
+}
+
+
+footer{
+
+	background: #FF7F00;
+}
+
+
+#not_found{
+
+	padding:8% 0;
+}
+
+
+.mid_section{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.page_not_found,.page_not_found_img{
+
+	width: 50%;
+	float: left;
+}
+
+.page_not_found h1{
+	font-size: 125px;
+	color: #FF5D2C;
+	margin: 0;
+}
+
+.page_not_found h2{
+
+	font-size:50px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.page_not_found p{
+
+	margin:6px 0;
+	text-transform: capitalize;
+}
+
+.page_not_found ul{
+
+	margin: 0;
+	padding: 0;
+}
+
+.page_not_found ul li{
+
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.page_not_found ul li a{
+
+	text-decoration: none;
+	padding:10px 20px;
+	display: block;
+	font-size: 20px;
+	background: #FF7F00;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 6px 0 #d56c04;
+}
+
+.page_not_found_img{
+
+	text-align: right;
+}
+
+.page_not_found_img img{
+
+	width: 45%;
+	display: inline-block;
+}
